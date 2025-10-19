@@ -32,16 +32,16 @@ const Footer = () => {
         {
             title: "CONTACT",
             links: [
-                { text: "+1-212-456-7890", path: '/', icon: MailIcon },
-                { text: "contact@example.com", path: '/', icon: PhoneIcon },
-                { text: "794 Francisco, 94102", path: '/', icon: MapPinIcon }
+                { text: "+91 7994366361", path: '/', icon: MailIcon },
+                { text: "elaksiatelier777@gmail.com", path: '/', icon: PhoneIcon },
+                { text: "Kozhikode, Kerala", path: '/', icon: MapPinIcon }
             ]
         }
     ];
 
     const socialIcons = [
         { icon: FacebookIcon, link: "https://www.facebook.com" },
-        { icon: InstagramIcon, link: "https://www.instagram.com" },
+        { icon: InstagramIcon, link: "https://www.instagram.com/elaksi_atelier/" },
         { icon: TwitterIcon, link: "https://twitter.com" },
         { icon: LinkedinIcon, link: "https://www.linkedin.com" },
     ]
@@ -54,7 +54,7 @@ const Footer = () => {
                         <Link href="/" className="text-4xl font-semibold text-slate-700">
                             <span className="text-green-600">elaksi</span>atelier<span className="text-green-600 text-5xl leading-0"></span>
                         </Link>
-                        <p className="max-w-[410px] mt-6 text-sm">Welcome to gocart, your ultimate destination for the latest and smartest gadgets. From smartphones and smartwatches to essential accessories, we bring you the best in innovation — all in one place.</p>
+                        <p className="max-w-[410px] mt-6 text-sm">Elaksi Atelier, where elegance meets affordability. We believe that every woman deserves to shine — not just on special occasions, but every day.</p>
                         <div className="flex items-center gap-3 mt-5">
                             {socialIcons.map((item, i) => (
                                 <Link href={item.link} key={i} className="flex items-center justify-center w-10 h-10 bg-slate-100 hover:scale-105 hover:border border-slate-300 transition rounded-full">
@@ -80,7 +80,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <p className="py-4 text-sm text-slate-500">
-                    Copyright 2025 © elaksi All Right Reserved.
+                    Copyright 2025 © Elaksi All Right Reserved.
                 </p>
             </div>
         </footer>
