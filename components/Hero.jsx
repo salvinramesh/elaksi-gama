@@ -45,7 +45,7 @@ const Hero = () => {
 
                         <div className='text-slate-800 text-sm font-medium mt-4 sm:mt-8'>
                             <p>Starts from</p>
-                            <p className='text-3xl'>{currency}99₹</p>
+                            <p className='text-3xl'>{currency}99</p>
                         </div>
 
                         {/* SHOP NOW button */}
