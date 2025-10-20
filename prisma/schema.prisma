@@ -119,7 +119,7 @@ model Rating {
 // Required for creating an Address: userId, name, email, street, city, state, zip, country, phone
 model Address {
   id        String   @id @default(cuid())
-  userId    String
+  userId    String?    // <-- make optional
   name      String
   email     String
   street    String
@@ -130,10 +130,10 @@ model Address {
   phone     String
   createdAt DateTime @default(now())
 
-  // Relations
   Order Order[]
-  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  user  User?  @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
+
 
 // Required for creating a Coupon: code, description, discount, forNewUser, isPublic, expiresAt
 model Coupon {
