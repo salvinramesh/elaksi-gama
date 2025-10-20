@@ -40,6 +40,7 @@ export default function AboutPage() {
           <li>💎 Handpicked quality and authentic craftsmanship</li>
           <li>💚 Elegant, minimal, and affordable designs</li>
           <li>🌿 Sustainable and locally inspired creations</li>
+          <li>🛡️ Anti-tarnish, waterproof, and anti-allergic materials for lasting comfort</li>
           <li>🚚 Fast and reliable shipping across India</li>
           <li>💬 Dedicated customer support for every order</li>
         </ul>
