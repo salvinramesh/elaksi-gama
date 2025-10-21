@@ -177,7 +177,7 @@ const OrderSummary = ({ totalPrice, items }) => {
           className="accent-gray-500"
         />
         <label htmlFor="COD" className="cursor-pointer">
-          COD
+          Cash on delivery
         </label>
       </div>
       <div className="flex gap-2 items-center mt-1">
@@ -190,7 +190,7 @@ const OrderSummary = ({ totalPrice, items }) => {
           className="accent-gray-500"
         />
         <label htmlFor="RAZORPAY" className="cursor-pointer">
-          Razorpay Payment
+          Pay Now
         </label>
       </div>
       <div className="my-4 py-4 border-y border-slate-200 text-slate-400">
