@@ -244,7 +244,7 @@ const OrderSummary = ({ totalPrice, items }) => {
               {totalPrice.toLocaleString()}
             </p>
             <p>
-              <Protect plan={"plus"} fallback={`${currency}5`}>
+              <Protect plan={"plus"} fallback={`${currency}0`}>
                 Free
               </Protect>
             </p>
